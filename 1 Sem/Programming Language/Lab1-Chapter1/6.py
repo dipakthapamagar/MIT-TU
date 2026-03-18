@@ -1,0 +1,12 @@
+num1 = input("Enter an integer: ")
+num2 = input("Enter a float: ")
+print(f"{num1} (type: {type(num1)})")
+print(f"{num2} (type: {type(num2)})")
+print("\nExplicit Type Conversion")
+num1 = int(num1)
+num2 = float(num2)
+print(f"{num1} to int (type: {type(num1)})")
+print(f"{num2} to float (type: {type(num2)})")
+print("\nImplicit Type Conversion")
+result = num1 + num2
+print(f"int + float = float so, {num1} + {num2} = {result} (type: {type(result)})")
